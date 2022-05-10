@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+}
+
+.mcontain{
+    background-color:steelblue;
+    text-align: center;
+    padding:10px;
+}
+
+.mcontain a{
+    color: white;
+    text-decoration: none;
+    margin:10px;
+}
+.mcontain a:hover{
+    color:darkblue;
+}
+.scontain{
+    background-color: cornsilk;
+    margin: 10px;
+    padding:20px;
+    border-radius: 30px;
+}
+
+#judul{
+    font-size: 30px;
+    text-decoration: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gambar{
+    margin:0;
+}
+
+#iggmbr{
+    height:100%;
+    max-width: 300px;
+    margin:10px;
+    border-radius: 20px;
+}
+
+.tcontain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.info{
+    margin:auto auto;
+}
+
+.info div{
+    margin:20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button{
+    background-color:rgb(78, 158, 223);
+    border-radius: 10px;
+    margin:10px;
+    color:white;
+    border:solid black;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
